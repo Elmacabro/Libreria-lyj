@@ -1,7 +1,195 @@
+html {
+  background-color: #bd9580;
 
+}
 
  #logo{
-
-    width:50px ;
-    
+   width: 9%; 
+   height: 80%; 
+   margin: 0px;  
+   justify-content: center; /* Centra horizontalmente */
+   align-items: center; /* Centra verticalmente (si es necesario) */
+   height: 18vh; /* Altura del contenedor */
  }
+
+ header{
+   display: flex; 
+   margin-top: 0px;
+   align-items: center; 
+   height: 20vh; /* El header ocupa el 20% de la altura de la ventana */   
+   background-color: #AB8875;
+   justify-content: space-evenly;
+}
+
+nav ul{
+  margin: 0; 
+  display: flex;
+  width: 100%; 
+}
+
+nav ul li{
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  text-decoration: none; /* Sin subrayado en los enlaces */
+  font-weight: bold; /* Texto en negrita */
+  padding: 20px;  
+  color: rgb(41, 32, 28); 
+  background-color: #83543dea;
+  border: 1px solid #83543dea;
+  border-radius: 50px 20px;   
+}
+
+nav ul li a{
+  text-decoration: none; /* Sin subrayado en los enlaces */
+  font-weight: bold; /* Texto en negrita */
+  color: rgb(41, 32, 28); 
+  background-color: #83543dea;
+  border: 1px solid #83543dea;
+  border-right: 2px solid black;
+  margin-right: 1px;
+}
+
+#enlaces {
+  background-color: #83543dea;
+  border: 1px solid #83543dea;
+  border-radius: 50px 20px;
+  border-right: 2px solid black;
+}
+
+/*
+#sr-radius: ort {
+  background-color:#e7c6b5 ;
+  border-color: #8d6b59fa;
+  border-width: 3px;
+}
+  */
+
+#titulosn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: bold;
+size: 3;
+
+}
+
+.imgSobreNosotros
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #a87070;
+  ;
+ 
+}
+
+/* Estilo individual de cada carta */
+#cartas > div {
+  display: flex; 
+  width: 25%; /*para que entren 3 cartas */ 
+  margin: 15px; 
+  padding: 10px; 
+  border: 8px inset #ffb67ae3; /* Borde con efecto inset */
+  border-radius: 15px; 
+  flex-direction: column;
+  align-items: center;
+}
+
+#cartas{
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cartas pasen a la siguiente fila si no caben */
+  justify-content: center; 
+}
+
+div > img
+{
+  height: 300px;
+  width: 300px;
+}
+
+#sectionLibros{
+
+  background-color: #9b7967;
+  color: lightsteelblue;
+font-family: 'Times New Roman', Times, serif;
+border-style:solid;
+border-radius: 3%;
+text-align: center;
+text-shadow: 2px, grey;
+
+}
+
+.divLibro{
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-style: dashed;
+color: white;
+text-align: justify;
+padding: 0.2%;
+margin: 0.3%;
+
+}
+
+#tPLibreria{
+
+  border-style: solid;
+  text-align: center;
+  background-color: rgb(159, 128, 108);
+  padding: 0,2%;
+  margin: 0,3%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  
+}
+
+#sectionInicio{
+ border-style: solid;
+ background-color: #9b7967;
+ color: white;
+ border-radius: 3%;
+ text-align: center;
+
+}
+
+
+/* Contenedor centrado con dos columnas */
+.contenedor-dos-columnas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #4a0712e3;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de cada columna */
+.contenedor-dos-columnas .columna {
+  flex: 1;
+}
+
+/* Estilo para la imagen */
+.contenedor-dos-columnas .imagen img {
+  width: 80%;
+  border-radius: 10px;
+  height:150px;
+
+}
+
+/* Estilo para el texto */
+.contenedor-dos-columnas .texto h3 {
+  margin-bottom: 10px;
+  color: #4a0712e3;
+}
+
+.contenedor-dos-columnas .texto p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
